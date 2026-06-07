@@ -1,0 +1,16 @@
+std={
+    101:'sam',102:'wao',103:'sdfg'
+}
+print(std.get(101))
+print(std.get(105))
+print(std.items())
+std.update({105:'101'})
+print(std)
+std.pop(102)
+print(std)
+print(std.pop(101,"sss"))
+print(std)
+print(std.popitem())
+print(std)
+std.setdefault(108,"vk")
+print(std)
